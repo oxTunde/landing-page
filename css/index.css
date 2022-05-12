@@ -37,7 +37,22 @@
 div ul li a {
   text-decoration: none;
 }
-a:hover{
-  border: 2px solid red;
-  border-radius: 9px;
+
+ul li a:hover{
+  color: red;
+}
+.content{
+ 
+  position: absolute;
+  top: 280px;
+  padding: 10px;
+  margin-left: 20px;
+}
+#content-txt{
+  font-weight: 900;
+  line-height: 60px;
+  color: rgb(221, 172, 115);
+}
+h1{
+  color: rgb(134, 122, 138);
 }
